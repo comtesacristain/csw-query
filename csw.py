@@ -4,7 +4,7 @@ import time
 import urllib
 import xml.dom.minidom as minidom
 
-csw_url="http://dev.portal.geoscience.gov.au/geonetwork/srv/eng/csw-australian-topography-featured?SERVICE=CSW&REQUEST=GetRecords&version=2.0.2&resultType=results&maxrecords=50"
+csw_url="http://localhost:8080/geonetwork/srv/eng/csw-australian-topography-featured?SERVICE=CSW&REQUEST=GetRecords&version=2.0.2&resultType=results&maxrecords=50"
 
 num_results = 1
 
